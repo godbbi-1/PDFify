@@ -1,17 +1,7 @@
 <html>
 <body>
-<h1>LOADING</h1>
 
-<script>
-fetch("http://localhost:3000/")
-  .then(r => r.text())
-  .then(x => {
-    document.body.innerHTML = x;
-  })
-  .catch(e => {
-    document.body.innerHTML = "ERR: " + e;
-  });
-</script>
+<img src="http://localhost:3000/">
 
 </body>
 </html>
